@@ -1,10 +1,12 @@
+import React from 'react'
+import NavBar from './components/NavBar'
 
-function App() {
+const App = () => {
   return (
-    <div className="text-4xl font-bold underline font-signature">
-      Hello
+    <div>
+      <NavBar />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
