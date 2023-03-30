@@ -1,8 +1,9 @@
-import React from 'react'
-import About from './components/About'
-import Home from './components/Home'
-import NavBar from './components/NavBar'
-import SocialLinks from './components/SocialLinks'
+import React from 'react';
+import About from './components/About';
+import Home from './components/Home';
+import NavBar from './components/NavBar';
+import Portfolio from './components/Portfolio';
+import SocialLinks from './components/SocialLinks';
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <NavBar />
       <Home />
       <About />
+      <Portfolio />
       <SocialLinks />
     </div>
   )
