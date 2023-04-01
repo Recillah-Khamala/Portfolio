@@ -15,8 +15,7 @@ const Home = () => {
             I'm a Full Stack Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            A self-taight full stack developer with experience building and desgining software.
-            I love to work on software application using technologies like React, Tailwind and Ruby on Rails.
+          With a background in developing over 40 efficient software applications in a global market. More than 1300+ hours of experience, including mentoring 2 junior developers to achieve concrete goals on a strict deadline. Strong skills include React, Redux, JavaScript, Ruby on Rails, PostgreSQL, and Tailwind CSS!
           </p>
 
           <div>
