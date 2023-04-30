@@ -28,18 +28,6 @@ const About = () => {
         <p className="text-l">
         I am committed to continuous learning and staying up-to-date with the latest technologies and best practices in software development. With a solid foundation in object-oriented programming, data structures, and algorithms, I am confident in my ability to tackle any development challenge.
         </p>
-        
-        <br />
-
-        <ul className="text-l">
-          <li>Programming Languages: Ruby | JavaScript.</li>
-          <li>Libraries & Frameworks: React | Redux | Ruby on Rails.</li>
-          <li>Database Management: PostgreSQL.</li>
-          <li>Version Control: Git.</li>
-          <li>Styling: Styled-components | CSS-in-JS | Bootstrap | TailwindCSS.</li>
-          <li>Tools and Methods: Netifly | Render. </li>
-          <li>Testing Frameworks: Jest | Rspec.</li>
-        </ul>
       </div>
     </div>
   );

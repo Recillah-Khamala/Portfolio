@@ -7,14 +7,18 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800"
+      className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 md:pt-20"
     >
-      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
-        <div className="flex flex-col justify-center h-full">
-          <h2 className="text-4xl sm:text-7xl font-bold text-white">
+      <div className="max-w-screen-lg mx-auto flex flex-col items-center h-full px-8 md:flex-row">
+        <div className="flex flex-col justify-center">
+          <p className='text-cyan-500'>Hi, my name is</p>
+          <h1 className='text-4xl sm:text-5xl font-bold text-[#ccd6f6]'>
+            RECILLAH KHAMALA
+          </h1>
+          <h2 className="text-4xl sm:text-7xl font-bold text-[#8892b0]">
             I'm a Full Stack Developer
           </h2>
-          <p className="text-gray-500 py-4 max-w-md">
+          <p className="text-[#8892b0] py-4 max-w-md">
           With a background in developing over 40 efficient software applications in a global market. More than 1300+ hours of experience, including mentoring 2 junior developers to achieve concrete goals on a strict deadline. Strong skills include React, Redux, JavaScript, Ruby on Rails, PostgreSQL, and Tailwind CSS!
           </p>
 
