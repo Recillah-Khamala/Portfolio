@@ -7,7 +7,7 @@ const Portfolio = () => {
   return (
     <div
       name="portfolio"
-      className="bg-gradient-to-b from-black to-gray-800 w-full text-gray-300 md:h-screen "
+      className="bg-gradient-to-b from-black to-gray-800 w-full text-gray-300 pt-6"
     >
       <div className="max-w-screen-lg px-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-4">
@@ -25,10 +25,10 @@ const Portfolio = () => {
                 alt={portfolios.name}
                 className="rounded-md duration-200 hover:scale-105"
               />
-              <div className="w-full flex items-center justify-center gap-8">
+              <div className="w-full flex items-center justify-center gap-8 pt-2">
                 <a href={portfolios.live} 
                 // eslint-disable-next-line
-                target="_blank">
+                target="live">
                   <button
                     className=" duration-200 hover:scale-105"
                   >
@@ -37,7 +37,7 @@ const Portfolio = () => {
                 </a>
                 <a href={portfolios.github}
                 // eslint-disable-next-line
-                target="_blank">
+                target="github">
                   <button 
                     className="duration-200 hover:scale-105"
                   >

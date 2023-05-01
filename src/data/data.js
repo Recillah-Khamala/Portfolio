@@ -1,47 +1,51 @@
 import mathmagicians from "../assets/portfolio/mathmagicians.JPG";
-import installNode from "../assets/portfolio/installNode.jpg";
-import navbar from "../assets/portfolio/navbar.jpg";
+import Carrental from "../assets/portfolio/carrental.JPG";
+import Leaderboard from "../assets/portfolio/leaderboard.JPG";
 import Leadership from "../assets/portfolio/leadership.JPG";
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
-import reactWeather from "../assets/portfolio/reactWeather.jpg";
+import counttool from "../assets/portfolio/counttool.JPG";
+import Cookpartner from "../assets/portfolio/cookpartner.JPG";
 
 export const data = [
   {
     id: 1,
-    name: "Math-Magicians",
-    src: mathmagicians,
-    github: "https://github.com/Recillah-Khamala/Math-magicians",
+    name: "Car Rental",
+    src: Carrental,
+    github: "https://github.com/Recillah-Khamala/booking-app-front-end",
     live: "",
   },
   {
     id: 2,
+    name: "Cook Partner",
+    src: Cookpartner,
+    github: "https://github.com/Recillah-Khamala/Cook-Partner",
+    live: "",
+  },
+  {
+    id: 3,
     name: "Leadership Training", 
     src: Leadership,
     github: "https://github.com/Recillah-Khamala/Capstone1-project",
     live: "",
   },
   {
-    id: 3,
-    src: navbar,
-    github: "",
-    live: "",
-  },
-  {
     id: 4,
-    src: reactSmooth,
-    github: "",
+    name: "Math-Magicians",
+    src: mathmagicians,
+    github: "https://github.com/Recillah-Khamala/Math-magicians",
     live: "",
   },
   {
     id: 5,
-    src: installNode,
-    github: "",
+    name: "LeaderBoard", 
+    src: Leaderboard,
+    github: "https://github.com/Recillah-Khamala/Leaderboard-Project",
     live: "",
   },
   {
     id: 6,
-    src: reactWeather,
-    github: "",
+    name: "Count Tool",
+    src: counttool,
+    github: "https://github.com/Recillah-Khamala/People-Counter",
     live: "",
   },
 ]

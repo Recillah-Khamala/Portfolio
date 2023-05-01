@@ -9,7 +9,7 @@ import Stack from './components/Stack';
 
 const App = () => {
   return (
-    <div>
+    <div className='gap-10'>
       <NavBar />
       <Home />
       <About />
