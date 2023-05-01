@@ -8,3 +8,5 @@
     />
   </div>
 </div>
+
+className="shadow-md shadow-gray-600 rounded-lg"
