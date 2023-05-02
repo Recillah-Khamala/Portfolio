@@ -4,6 +4,7 @@ import Leaderboard from "../assets/portfolio/leaderboard.JPG";
 import Leadership from "../assets/portfolio/leadership.JPG";
 import counttool from "../assets/portfolio/counttool.JPG";
 import Cookpartner from "../assets/portfolio/cookpartner.JPG";
+import bookstore from "../assets/portfolio/bookstore.JPG"
 
 export const data = [
   {
@@ -36,13 +37,20 @@ export const data = [
   },
   {
     id: 5,
+    name: "Book Store",
+    src: bookstore,
+    github: "https://github.com/Recillah-Khamala/BookStore",
+    live: "",
+  },
+  {
+    id: 6,
     name: "LeaderBoard", 
     src: Leaderboard,
     github: "https://github.com/Recillah-Khamala/Leaderboard-Project",
     live: "",
   },
   {
-    id: 6,
+    id: 7,
     name: "Count Tool",
     src: counttool,
     github: "https://github.com/Recillah-Khamala/People-Counter",
