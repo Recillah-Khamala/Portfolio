@@ -7,18 +7,16 @@ import Portfolio from './components/Portfolio';
 import SocialLinks from './components/SocialLinks';
 import Stack from './components/Stack';
 
-const App = () => {
-  return (
-    <div className='gap-10'>
-      <NavBar />
-      <Home />
-      <About />
-      <Portfolio />
-      <Stack />
-      <Contact />
-      <SocialLinks />
-    </div>
-  )
-}
+const App = () => (
+  <div className="gap-10">
+    <NavBar />
+    <Home />
+    <About />
+    <Portfolio />
+    <Stack />
+    <Contact />
+    <SocialLinks />
+  </div>
+);
 
-export default App
+export default App;

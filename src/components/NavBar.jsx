@@ -1,6 +1,6 @@
-import React, { useState } from "react";
-import { FaBars, FaTimes } from "react-icons/fa";
-import { Link } from "react-scroll";
+import React, { useState } from 'react';
+import { FaBars, FaTimes } from 'react-icons/fa';
+import { Link } from 'react-scroll';
 
 const NavBar = () => {
   const [nav, setNav] = useState(false);
@@ -8,23 +8,23 @@ const NavBar = () => {
   const links = [
     {
       id: 1,
-      link: "home",
+      link: 'home',
     },
     {
       id: 2,
-      link: "about",
+      link: 'about',
     },
     {
       id: 3,
-      link: "portfolio",
+      link: 'portfolio',
     },
     {
       id: 4,
-      link: "stack",
+      link: 'stack',
     },
     {
       id: 5,
-      link: "contact",
+      link: 'contact',
     },
   ];
 
@@ -48,7 +48,14 @@ const NavBar = () => {
       </ul>
 
       <div
+        role="button"
+        tabIndex={0}
         onClick={() => setNav(!nav)}
+        onKeyDown={(event) => {
+          if (event.key === 'Enter') {
+            setNav(!nav);
+          }
+        }}
         className="cursor-pointer pr-4 z-10 text-gray-500 md:hidden"
       >
         {nav ? <FaTimes size={30} /> : <FaBars size={30} />}

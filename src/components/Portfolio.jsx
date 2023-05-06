@@ -1,8 +1,8 @@
-import React from "react";
-import { data } from "../data/data";
+import React from 'react';
+import data from '../data/data';
 
 const Portfolio = () => {
-  const portfolios = data
+  const portfolios = data;
 
   return (
     <div
@@ -26,24 +26,28 @@ const Portfolio = () => {
                 className="rounded-md duration-200 hover:scale-105"
               />
               <div className="w-full flex items-center justify-center gap-8 pt-2">
-                <a href={portfolios.live} 
+                <a
+                  href={portfolios.live}
                 // eslint-disable-next-line
                 target="live">
                   <button
+                    type="button"
                     className=" duration-200 hover:scale-105"
                   >
                     Demo
                   </button>
                 </a>
-                <a href={portfolios.github}
+                <a
+                  href={portfolios.github}
                 // eslint-disable-next-line
                 target="github">
-                  <button 
+                  <button
+                    type="button"
                     className="duration-200 hover:scale-105"
                   >
                     Code
                   </button>
-                  </a>
+                </a>
               </div>
             </div>
           ))}

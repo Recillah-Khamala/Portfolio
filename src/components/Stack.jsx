@@ -1,5 +1,5 @@
-import React from "react";
-import { tech } from "../data/tech";
+import React from 'react';
+import tech from '../data/tech';
 
 const Stack = () => {
   const techs = tech;
@@ -14,7 +14,7 @@ const Stack = () => {
           <p className="text-4xl font-bold border-b-4 border-gray-500 inline">
             Stack
           </p>
-          <p className="pt-4">These are the technologies I've worked with</p>
+          <p className="pt-4">These are the technologies I have worked with</p>
         </div>
 
         <div className="w-full grid grid-cols-2 sm:grid-cols-6 gap-4 text-center py-4 px-12 sm:px-0">
