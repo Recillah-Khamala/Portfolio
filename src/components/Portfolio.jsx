@@ -20,11 +20,14 @@ const Portfolio = () => {
         <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-4 px-12 sm:px-0">
           {portfolios.map((portfolios) => (
             <div key={portfolios.id} className="shadow-md shadow-gray-600 rounded-lg content-div">
-              <img
-                src={portfolios.src}
-                alt={portfolios.name}
-                className="rounded-md duration-200 hover:scale-105"
-              />
+              <div
+                className="w-full bg-cover bg-center rounded-md duration-200 hover:scale-105"
+                style={{ backgroundImage: `url(${portfolios.src})` }}
+              >
+                <div className="bg-black bg-opacity-70 h-full w-full rounded-md flex items-center justify-center text-white opacity-0 transition-opacity duration-200 hover:opacity-100">
+                  {portfolios.desc}
+                </div>
+              </div>
               <div className="w-full flex items-center justify-center gap-8 pt-2">
                 <a
                   href={portfolios.live}

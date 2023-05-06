@@ -40,6 +40,15 @@ const About = () => (
         programming, data structures, and algorithms, I am confident
         in my ability to tackle any development challenge.
       </p>
+
+      <br />
+
+      <p>
+        If you&apos;re looking for a dedicated Full Stack Web Developer who
+        can help take your web development projects to the next level,
+        let&apos;s schedule a Zoom chat. Please send me an email at
+        recillahk@gmail.com to get in touch. I&apos;m excited to hear from you!
+      </p>
     </div>
   </div>
 );
